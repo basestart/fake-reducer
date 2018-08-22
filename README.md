@@ -3,5 +3,5 @@ fake-reducer package
 a simplified redux package
 
 ```
-npm install fake-redux
+npm install fake-reducer --save
 ```
