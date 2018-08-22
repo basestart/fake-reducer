@@ -1,0 +1,22 @@
+{
+  "name": "fake-reducer",
+  "version": "1.0.1",
+  "description": "fake reducer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fridego/fake-reducer.git"
+  },
+  "keywords": [
+    "fake-reducer"
+  ],
+  "author": "fridego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fridego/fake-reducer/issues"
+  },
+  "homepage": "https://github.com/fridego/fake-reducer#readme"
+}
