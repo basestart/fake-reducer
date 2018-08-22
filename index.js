@@ -34,4 +34,4 @@ function createStore (reducer, initState) {
 	}
 }
 
-exports.default = createStore;
+module.exports = createStore;
