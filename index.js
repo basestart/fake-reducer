@@ -1,5 +1,10 @@
 
-function createStore (reducer, initState) {
+function createStore (reducer, initState, enhercer) {
+
+	if(enhercer !== undefined) {
+		return enhercer(createStore)(reducer, initState);
+	}
+
 	let currentState = initState;
 	let currentReducer = reducer;
 	let listeners = [];
